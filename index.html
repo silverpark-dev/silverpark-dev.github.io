@@ -1,89 +1,501 @@
 <!doctype html>
+
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Silver Park | Developer · Digital & AI Educator</title>
 <meta name="description" content="개발 경험과 교육을 연결하는 박은현의 포트폴리오">
+
 <link rel="stylesheet" href="style.css">
 
+<!-- AI 영상용 스타일 -->
+
+<style>
+.ai-item video {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+</style>
+
 </head>
+
 <body>
-<header><div class="wrap nav">
-<a class="brand" href="#top">Silver Park<small>Developer · Educator · Creator</small></a>
-<nav class="navlinks"><a href="#projects">Projects</a><a href="#education">Education</a><a href="#ai">AI Works</a><a href="#contact">Contact</a></nav>
+
+<header>
+<div class="wrap nav">
+
+<a class="brand" href="#top">
+Silver Park
+<small>Developer · Educator · Creator</small>
+</a>
+
+<nav class="navlinks">
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#ai">AI Works</a>
+<a href="#contact">Contact</a>
+</nav>
+
 <a class="contact-pill" href="#contact">Contact</a>
-</div></header>
+
+</div>
+</header>
 
 <main id="top">
+
+<!-- HERO -->
+
 <section class="hero">
+
 <div class="hero-copy">
+
 <div class="eyebrow">SOFTWARE ENGINEERING</div>
-<h1>기술로 배우고,<br><em>배움으로 연결합니다.</em></h1>
-<p class="lead">개발의 경험과 교육의 따뜻함으로 아이들과 시니어의 디지털 세상을 함께 만들어갑니다.</p>
-<div class="roleline">DEVELOPER &nbsp; | &nbsp; DIGITAL & AI EDUCATOR &nbsp; | &nbsp; LIFELONG LEARNER</div>
+
+<h1>
+기술로 배우고,<br>
+<em>배움으로 연결합니다.</em>
+</h1>
+
+<p class="lead">
+개발의 경험과 교육의 따뜻함으로 아이들과 시니어의 디지털 세상을 함께 만들어갑니다.
+</p>
+
+<div class="roleline">
+DEVELOPER &nbsp; | &nbsp; DIGITAL & AI EDUCATOR &nbsp; | &nbsp; LIFELONG LEARNER
+</div>
+
 <div class="hero-facts">
-<div class="fact"><span class="icon">⌘</span><div><b>개발 경력</b>7년 11개월</div></div>
-<div class="fact"><span class="icon">🎓</span><div><b>소프트웨어공학</b>석사</div></div>
-<div class="fact"><span class="icon">◎</span><div><b>코딩·AI 교육</b>초등 · 시니어</div></div>
+
+<div class="fact">
+<span class="icon">⌘</span>
+<div>
+<b>개발 경력</b>
+7년 11개월
 </div>
-<div class="actions"><a class="btn primary" href="#projects">프로젝트 보기 →</a><a class="btn" href="#education">교육 결과물 보기</a></div>
 </div>
+
+<div class="fact">
+<span class="icon">🎓</span>
+<div>
+<b>소프트웨어공학</b>
+석사
+</div>
+</div>
+
+<div class="fact">
+<span class="icon">◎</span>
+<div>
+<b>코딩·AI 교육</b>
+초등 · 시니어
+</div>
+</div>
+
+</div>
+
+<div class="actions">
+<a class="btn primary" href="#projects">프로젝트 보기 →</a>
+<a class="btn" href="#education">교육 결과물 보기</a>
+</div>
+
+</div>
+
 <div class="hero-image" aria-label="노트북과 작업 공간 이미지"></div>
+
 </section>
 
-<section id="projects"><div class="wrap">
-<div class="section-head"><div><h2>Featured Projects</h2><p>개발 경험을 바탕으로 만든 프로젝트와 서비스 기획입니다.</p></div></div>
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<div class="wrap">
+
+<div class="section-head">
+<div>
+<h2>Featured Projects</h2>
+<p>개발 경험을 바탕으로 만든 프로젝트와 서비스 기획입니다.</p>
+</div>
+</div>
+
 <div class="cards3">
-<article class="card"><div class="card-media"><img src="images/image-01.jpg" alt="차량관리 시스템"></div><div class="card-body"><span class="pill">Web / Java</span><h3>차량관리 시스템</h3><p>기업용 차량 관리 웹 시스템. 운영·정비·예약·통계를 한 화면에서 관리합니다.</p><div class="tags"><span class="tag">Java</span><span class="tag">Spring</span><span class="tag">Oracle</span></div></div></article>
-<article class="card"><div class="card-media"><img src="images/image-02.jpg" alt="지금 JIGEUM 앱"></div><div class="card-body"><span class="pill">Web / App</span><h3>지금 (JIGEUM)</h3><p>카페 혼잡도·가격·쿠폰 정보를 한눈에 보는 카페 라이프 앱 서비스.</p><div class="tags"><span class="tag">UI/UX</span><span class="tag">JavaScript</span><span class="tag">Product</span></div></div></article>
-<article class="card"><div class="card-media"><img src="images/image-03.jpg" alt="학원 관리 앱"></div><div class="card-body"><span class="pill">AI / Tool</span><h3>학원 관리 앱 (기획중)</h3><p>선생님과 학생을 위한 스마트 학원 관리 서비스.</p><div class="tags"><span class="tag">Planning</span><span class="tag">UI/UX</span><span class="tag">Education</span></div></div></article>
-</div></div></section>
 
-<section id="education" class="edu-section"><div class="wrap">
-<div class="section-head"><div><h2>Coding Education Works</h2><p>아이들이 즐기며 배우는 실제 코딩 수업 결과물입니다.</p></div></div>
+<article class="card">
+
+<div class="card-media">
+<img src="images/image-01.jpg" alt="차량관리 시스템">
+</div>
+
+<div class="card-body">
+
+<span class="pill">Web / Java</span>
+
+<h3>차량관리 시스템</h3>
+
+<p>
+기업용 차량 관리 웹 시스템. 운영·정비·예약·통계를 한 화면에서 관리합니다.
+</p>
+
+<div class="tags">
+<span class="tag">Java</span>
+<span class="tag">Spring</span>
+<span class="tag">Oracle</span>
+</div>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<div class="card-media">
+<img src="images/image-02.jpg" alt="지금 JIGEUM 앱">
+</div>
+
+<div class="card-body">
+
+<span class="pill">Web / App</span>
+
+<h3>지금 (JIGEUM)</h3>
+
+<p>
+카페 혼잡도·가격·쿠폰 정보를 한눈에 보는 카페 라이프 앱 서비스.
+</p>
+
+<div class="tags">
+<span class="tag">UI/UX</span>
+<span class="tag">JavaScript</span>
+<span class="tag">Product</span>
+</div>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<div class="card-media">
+<img src="images/image-03.jpg" alt="학원 관리 앱">
+</div>
+
+<div class="card-body">
+
+<span class="pill">AI / Tool</span>
+
+<h3>학원 관리 앱 (기획중)</h3>
+
+<p>
+선생님과 학생을 위한 스마트 학원 관리 서비스.
+</p>
+
+<div class="tags">
+<span class="tag">Planning</span>
+<span class="tag">UI/UX</span>
+<span class="tag">Education</span>
+</div>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education" class="edu-section">
+
+<div class="wrap">
+
+<div class="section-head">
+<div>
+<h2>Coding Education Works</h2>
+<p>아이들이 즐기며 배우는 실제 코딩 수업 결과물입니다.</p>
+</div>
+</div>
+
 <div class="edu-grid">
+
+<!-- ENTRY -->
+
 <div class="panel">
-<div class="panel-title"><span class="logo">E</span><div><h3>Entry (엔트리)</h3><small>쉽고 재미있게, 생각을 표현하는 코딩</small></div></div>
+
+<div class="panel-title">
+
+<span class="logo">E</span>
+
+<div>
+<h3>Entry (엔트리)</h3>
+<small>쉽고 재미있게, 생각을 표현하는 코딩</small>
+</div>
+
+</div>
+
 <div class="work-grid">
-<div class="work-card"><img src="images/image-04.png" alt="펭귄 미로게임"><div class="meta"><b>펭귄 미로게임</b><small>좌표 · 조건문 · 감지</small></div></div>
-<div class="work-card"><img src="images/image-05.jpg" alt="우주 슈팅게임"><div class="meta"><b>우주 슈팅게임</b><small>복제 · 이벤트 · 게임로직</small></div></div>
-<div class="work-card"><img src="images/image-06.jpg" alt="과일 먹기 게임"><div class="meta"><b>과일 먹기 게임</b><small>변수 · 점수 · 복제</small></div></div>
-</div></div>
+
+<div class="work-card">
+
+<img src="images/image-04.png" alt="펭귄 미로게임">
+
+<div class="meta">
+<b>펭귄 미로게임</b>
+<small>좌표 · 조건문 · 감지</small>
+</div>
+
+</div>
+
+<div class="work-card">
+
+<img src="images/image-05.jpg" alt="우주 슈팅게임">
+
+<div class="meta">
+<b>우주 슈팅게임</b>
+<small>복제 · 이벤트 · 게임로직</small>
+</div>
+
+</div>
+
+<div class="work-card">
+
+<img src="images/image-06.jpg" alt="과일 먹기 게임">
+
+<div class="meta">
+<b>과일 먹기 게임</b>
+<small>변수 · 점수 · 복제</small>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- SCRATCH -->
+
 <div class="panel">
-<div class="panel-title"><span class="logo scratch">S</span><div><h3>Scratch (스크래치)</h3><small>게임으로 배우는 논리력과 창의력</small></div></div>
-<div class="work-card"><img src="images/image-07.jpg" alt="스크래치 피하기 게임"><div class="meta"><b>피하기 게임</b><small>랜덤 · 점수 · 게임오버</small></div></div>
-</div>
-</div></div></section>
 
-<section id="ai"><div class="wrap"><div class="ai-grid">
+<div class="panel-title">
+
+<span class="logo scratch">S</span>
+
+<div>
+<h3>Scratch (스크래치)</h3>
+<small>게임으로 배우는 논리력과 창의력</small>
+</div>
+
+</div>
+
+<div class="work-card">
+
+<img src="images/image-07.jpg" alt="스크래치 피하기 게임">
+
+<div class="meta">
+<b>피하기 게임</b>
+<small>랜덤 · 점수 · 게임오버</small>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- AI WORKS -->
+
+<section id="ai">
+
+<div class="wrap">
+
+<div class="ai-grid">
+
 <div class="ai-panel">
-<div class="section-head"><div><h2 style="font-size:34px">AI Creative Works</h2><p>AI를 활용해 만든 이야기, 이미지, 디자인, 영상 결과물입니다.</p></div></div>
-<div class="ai-gallery">
-<div class="ai-item"><img src="images/image-08.jpg" alt="토토의 우주 대모험"><div class="meta"><b>AI 동화책 만들기</b><small>Story · Image · Editing</small></div></div>
-<div class="ai-item"><img src="images/image-09.jpg" alt="AI 이미지 생성"><div class="meta"><b>AI 이미지 생성</b><small>Image · Creative</small></div></div>
-<div class="ai-item"><img src="images/image-10.jpg" alt="AI 이미지 디자인"><div class="meta"><b>AI 이미지 & 디자인</b><small>Poster · Design</small></div></div><div class="ai-item">
-<div class="ai-item"> <video controls playsinline preload="metadata"> <source src="videos/ai-01.mp4" type="video/mp4"> 동영상을 재생할 수 없습니다. </video>
 
-<div class="meta"> <b>AI 영상 만들기</b> <small>Video · AI Tool</small> </div> </div>
+<div class="section-head">
+
+<div>
+
+<h2 style="font-size:34px">
+AI Creative Works
+</h2>
+
+<p>
+AI를 활용해 만든 이야기, 이미지, 디자인, 영상 결과물입니다.
+</p>
+
 </div>
-</div></div>
+
+</div>
+
+<div class="ai-gallery">
+
+<!-- AI 동화 -->
+
+<div class="ai-item">
+
+<img src="images/image-08.jpg" alt="토토의 우주 대모험">
+
+<div class="meta">
+<b>AI 동화책 만들기</b>
+<small>Story · Image · Editing</small>
+</div>
+
+</div>
+
+<!-- AI 이미지 -->
+
+<div class="ai-item">
+
+<img src="images/image-09.jpg" alt="AI 이미지 생성">
+
+<div class="meta">
+<b>AI 이미지 생성</b>
+<small>Image · Creative</small>
+</div>
+
+</div>
+
+<!-- AI 디자인 -->
+
+<div class="ai-item">
+
+<img src="images/image-10.jpg" alt="AI 이미지 디자인">
+
+<div class="meta">
+<b>AI 이미지 & 디자인</b>
+<small>Poster · Design</small>
+</div>
+
+</div>
+
+<!-- AI 영상 -->
+
+<div class="ai-item">
+
+<video controls playsinline preload="metadata">
+
+<source src="videos/ai-01.mp4" type="video/mp4">
+
+동영상을 재생할 수 없습니다.
+
+</video>
+
+<div class="meta">
+<b>AI 영상 만들기</b>
+<small>Video · AI Tool</small>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- DIGITAL EDUCATION -->
+
 <aside class="digital-panel">
-<div class="section-head" style="margin-bottom:8px"><div><h2 style="font-size:31px">Digital Education</h2><p>시니어의 일상을 디지털로 연결합니다.</p></div></div>
-<img class="digital-photo" src="images/image-12.jpg" alt="시니어 스마트폰 교육">
-<ul><li><b>스마트폰 기초교실</b></li><li><b>생활 앱 활용</b></li><li><b>AI 활용하기</b></li><li><b>AI 동화 만들기</b></li></ul>
+
+<div class="section-head" style="margin-bottom:8px">
+
+<div>
+
+<h2 style="font-size:31px">
+Digital Education
+</h2>
+
+<p>
+시니어의 일상을 디지털로 연결합니다.
+</p>
+
+</div>
+
+</div>
+
+<img
+class="digital-photo"
+src="images/image-12.jpg"
+alt="시니어 스마트폰 교육"
+
+>
+
+<ul>
+
+<li>
+<b>스마트폰 기초교실</b>
+</li>
+
+<li>
+<b>생활 앱 활용</b>
+</li>
+
+<li>
+<b>AI 활용하기</b>
+</li>
+
+<li>
+<b>AI 동화 만들기</b>
+</li>
+
+</ul>
+
 </aside>
-</div></div></section>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
 
-<footer id="contact"><div class="wrap">
+<!-- FOOTER -->
+
+<footer id="contact">
+
+<div class="wrap">
+
 <div class="footer-row">
-<div class="footer-brand">Silver Park<small>Developer · Educator · Creator</small></div>
-<div class="footer-item">✉ malden0512@gmail.com</div>
-<div class="footer-item">GitHub · silverpark-dev</div>
-<div class="footer-item">Seongnam, Korea</div>
+
+<div class="footer-brand">
+
+Silver Park
+
+<small>
+Developer · Educator · Creator
+</small>
+
 </div>
-<div class="copy">© 2026 Silver Park. All rights reserved.</div>
-</div></footer>
+
+<div class="footer-item">
+✉ malden0512@gmail.com
+</div>
+
+<div class="footer-item">
+GitHub · silverpark-dev
+</div>
+
+<div class="footer-item">
+Seongnam, Korea
+</div>
+
+</div>
+
+<div class="copy">
+© 2026 Silver Park. All rights reserved.
+</div>
+
+</div>
+
+</footer>
+
 </body>
+
 </html>
