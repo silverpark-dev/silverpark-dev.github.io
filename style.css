@@ -38,7 +38,12 @@ section{padding:68px 0} .section-head{display:flex;justify-content:space-between
 .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;font-weight:900;background:linear-gradient(135deg,#42d5c5,#6a74e8)} .logo.scratch{background:linear-gradient(135deg,#ffb329,#ff7b37)}
 .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px} .work-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .work-card img{width:100%;height:150px;object-fit:cover;display:block} .meta{padding:11px} .meta b{display:block;font-size:14px} .meta small{color:var(--muted)}
-
+.work-card video {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
 .ai-grid{display:grid;grid-template-columns:1.5fr .7fr;gap:18px}
 .ai-panel,.digital-panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px}
 .ai-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px} .ai-item{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
